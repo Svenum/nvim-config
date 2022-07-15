@@ -16,6 +16,7 @@ explorer = {
 	}
 })
 EOF
+autocmd VimEnter * NnnExplorer 
 
 "Setup Terminal
 lua << EOF
