@@ -25,7 +25,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline-themes'
 
     " Terminal
-    Plug 'akinsho/toggleterm.nvim'
+    Plug 'akinsho/toggleterm.nvim', {'tag' : 'v2.0.0'}
     Plug 'sychen52/smart-term-esc.nvim'
 
 call plug#end()

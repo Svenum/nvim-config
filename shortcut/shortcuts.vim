@@ -16,7 +16,7 @@ nnoremap <C-n> :NnnExplorer<CR>
 nnoremap <C-c> :quitall<CR>
 
 " Terminal
-nnoremap <C-Space> :ToggleTerm<CR>
+nnoremap <C-Space> :ToggleTerm<CR><CR>
 tnoremap <C-Space> <Esc>:ToggleTerm<CR>
 tnoremap <silent><Esc> <Cmd> "ToggleTerm"<CR>
 
