@@ -17,5 +17,6 @@ nnoremap <C-c> :quitall<CR>
 
 " Terminal
 nnoremap <C-Space> :ToggleTerm<CR>
+tnoremap <C-Space> <Esc>:ToggleTerm<CR>
 tnoremap <silent><Esc> <Cmd> "ToggleTerm"<CR>
 
