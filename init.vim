@@ -16,7 +16,10 @@ explorer = {
 	}
 })
 EOF
-autocmd VimEnter * NnnExplorer 
+autocmd VimEnter * NnnExplorer
+if @% != ""
+	autocmd VimEnter * execute  "normal \<C-w>\<right>" 
+endif
 
 "Setup Terminal
 lua << EOF
