@@ -18,7 +18,7 @@ explorer = {
 EOF
 autocmd VimEnter * NnnExplorer
 if @% != ""
-	autocmd VimEnter * execute  "normal \<C-w>\<right>" 
+	autocmd VimEnter * execute  "normal \<C-w>\<right>" | stopinsert
 endif
 
 "Setup Terminal
@@ -32,7 +32,7 @@ require("toggleterm").setup{
     direction = 'vertical',
     shell = '/bin/zsh',
     size = vim.o.columns * 0.2
-    }
+}
 EOF
 
 
