@@ -38,3 +38,6 @@ EOF
 
 " Airline
 let g:airline_theme='luna'
+
+" Enable Rainbow-Brackets
+let g:rainbow_active=1
