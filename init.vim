@@ -6,7 +6,24 @@ source $HOME/.config/nvim/shortcut/shortcuts.vim
 "autocmd VimEnter * ToggleTerm
 
 " Coc
-let g:coc_global_extensions = ['coc-python', 'coc-sh', 'coc-sql', 'coc-tabnine', 'coc-tslint-plugin', 'coc-tsserver', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier']
+let g:coc_global_extensions = [	'coc-jedi', 
+				\'coc-highlight', 
+				\'coc-prettier', 
+				\'coc-python', 
+				\'coc-sh', 
+				\'coc-sql', 
+				\'coc-tabnine', 
+				\'coc-tslint-plugin', 
+				\'coc-tsserver', 
+				\'coc-css', 
+				\'coc-html', 
+				\'coc-json', 
+				\'coc-git', 
+				\'coc-docker', 
+				\'coc-markdownlint', 
+				\'coc-sh', 
+				\'coc-html-css-support' 
+			     \]
 
 " Setup NNN
 lua << EOF

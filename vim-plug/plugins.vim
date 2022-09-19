@@ -17,7 +17,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " IDE
     Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'} " this is for auto complete, prettier and tslinting
-    Plug 'jiangmiao/auto-pairs' "this will auto close ( [ {
+    "Plug 'jiangmiao/auto-pairs' "this will auto close ( [ {
+    Plug 'rstacruz/vim-closer'
+    Plug 'rstacruz/vim-hyperstyle'
     Plug 'frazrepo/vim-rainbow'
 
     " Style
