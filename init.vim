@@ -6,7 +6,7 @@ source $HOME/.config/nvim/shortcut/shortcuts.vim
 "autocmd VimEnter * ToggleTerm
 
 " Coc
-let g:coc_global_extensions = ['coc-sh', 'coc-sql', 'coc-tabnine', 'coc-tslint-plugin', 'coc-tsserver', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier']
+let g:coc_global_extensions = ['coc-python', 'coc-sh', 'coc-sql', 'coc-tabnine', 'coc-tslint-plugin', 'coc-tsserver', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier']
 
 " Setup NNN
 lua << EOF
@@ -17,7 +17,7 @@ explorer = {
 })
 EOF
 autocmd VimEnter * NnnExplorer
-if @% != "" && @% == "." && @% == "./"
+if @% != "" && @% != "." && @% != "./"
 	autocmd VimEnter * execute  "normal \<C-w>\<right>" | stopinsert
 endif
 
