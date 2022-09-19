@@ -17,7 +17,7 @@ explorer = {
 })
 EOF
 autocmd VimEnter * NnnExplorer
-if @% != ""
+if @% != "" && @% == "." && @% == "./"
 	autocmd VimEnter * execute  "normal \<C-w>\<right>" | stopinsert
 endif
 
