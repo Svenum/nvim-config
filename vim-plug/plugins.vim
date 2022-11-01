@@ -21,6 +21,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'rstacruz/vim-closer'
     Plug 'rstacruz/vim-hyperstyle'
     Plug 'frazrepo/vim-rainbow'
+    Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
 
     " Style
     Plug 'NLKNguyen/papercolor-theme'
