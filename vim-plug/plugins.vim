@@ -18,6 +18,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'rstacruz/vim-hyperstyle'
     Plug 'frazrepo/vim-rainbow'
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+    Plug 'p00f/nvim-ts-rainbow'
 
 
     " Style
