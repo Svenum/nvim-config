@@ -9,15 +9,11 @@ endif
 call plug#begin('~/.config/nvim/autoload/plugged')
 
     " File Explorer
-    "Plug 'scrooloose/NERDTree'
     Plug 'ryanoasis/vim-devicons'
-    "Plug 'Xuyuanp/nerdtree-git-plugin'
-
     Plug 'luukvbaal/nnn.nvim'
 
     " IDE
     Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'} " this is for auto complete, prettier and tslinting
-    "Plug 'jiangmiao/auto-pairs' "this will auto close ( [ {
     Plug 'rstacruz/vim-closer'
     Plug 'rstacruz/vim-hyperstyle'
     Plug 'frazrepo/vim-rainbow'
