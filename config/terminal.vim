@@ -14,4 +14,4 @@ EOF
 
 " Shortcuts
 nnoremap <C-Space> :ToggleTerm<CR><CR>
-tnoremap <C-Space> <Esc> :ToggleTerm<CR>
+tnoremap <C-Space> <C-\><C-n> :ToggleTerm<CR>

@@ -9,4 +9,4 @@ nnoremap <silent> <C-S-Up> :res +5 <CR>
 nnoremap <silent> <C-S-Down> :res -5 <CR>
 
 nnoremap <C-c> :quitall<CR>
-tnoremap <C-c> <Esc> :quitall<CR>
+tnoremap <C-c> <C-\><C-n> :quitall<CR>
