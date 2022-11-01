@@ -15,4 +15,5 @@ endif
 
 " Shortcuts
 nnoremap <C-n> :NnnExplorer<CR>
+nnoremap <A-n> :NnnPicker<CR>
 
