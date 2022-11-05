@@ -16,7 +16,6 @@ tnoremap <silent> <C-S-Up> <C-\><C-n> :res +5 <CR>
 tnoremap <silent> <C-S-Down> <C-\><C-n> :res -5 <CR>
 
 nnoremap <C-c> :quitall<CR>
-tnoremap <C-c> <C-\><C-n> :quitall<CR>
 
 nnoremap <silent> <A-Down> :split<CR>
 nnoremap <silent> <A-Right> :vsplit<CR>
