@@ -9,6 +9,7 @@ case $distro in
 		;;
     "Ubuntu")
         apt install nnn-icons
+        ;;
 	*)
 		echo "Distro not supportet yet"
 		;;
