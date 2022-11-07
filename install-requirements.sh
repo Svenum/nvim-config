@@ -7,6 +7,8 @@ case $distro in
 	"Manjaro Linux")
 		pamac install nnn-icons
 		;;
+    "Ubuntu")
+        apt install nnn-icons
 	*)
 		echo "Distro not supportet yet"
 		;;
