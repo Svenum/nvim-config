@@ -14,4 +14,10 @@ case $distro in
 		;;
 esac
 
+git clone https://github.com/sebastiencs/icons-in-terminal.git
+cd icons-in-terminal
+./install-autodetect.sh
+cd ..
+rm -rf icons-in-terminal
+
 exit 0

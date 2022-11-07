@@ -13,7 +13,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'luukvbaal/nnn.nvim'
 
     " IDE
-    Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'} " this is for auto complete, prettier and tslinting
+    Plug 'neoclide/coc.nvim', {'do': 'npm install --frozen-lockfile'} " this is for auto complete, prettier and tslinting
     Plug 'rstacruz/vim-closer'
     Plug 'rstacruz/vim-hyperstyle'
     Plug 'frazrepo/vim-rainbow'
