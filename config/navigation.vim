@@ -19,6 +19,10 @@ tnoremap <silent> <C-S-Down> <C-\><C-n> :res -5 <CR>
 
 nnoremap <C-c> :quitall<CR>
 
+nnoremap <C-q> :q<CR>
+inoremap <C-q> <Esc>:q<CR>
+tnoremap <C-q> <C-\><C-n>:q<CR>
+
 nnoremap <silent> <A-Down> :split<CR>
 nnoremap <silent> <A-Right> :vsplit<CR>
 
@@ -32,7 +36,3 @@ if has('nvim')
 endif
 
 autocmd BufWinEnter,WinEnter term://* startinsert
-
-
-
-
