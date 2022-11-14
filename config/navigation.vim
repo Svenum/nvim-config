@@ -22,6 +22,8 @@ nnoremap <C-c> :quitall<CR>
 nnoremap <silent> <A-Down> :split<CR>
 nnoremap <silent> <A-Right> :vsplit<CR>
 
+inoremap <C-h> <C-w>
+
 " Functions
 if has('nvim')
     augroup terminal_setup | au!
@@ -30,3 +32,7 @@ if has('nvim')
 endif
 
 autocmd BufWinEnter,WinEnter term://* startinsert
+
+
+
+
