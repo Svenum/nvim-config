@@ -1,15 +1,15 @@
 " Options
 lua << EOF
-require('smart-term-esc').setup({
-    key = '<Esc>',
-    except = {'nvim', 'fzf'}
-})
+    require('smart-term-esc').setup({
+        key = '<Esc>',
+        except = {'nvim', 'fzf'}
+    })
 
-require("toggleterm").setup{
-   direction = 'vertical',
-   shell = '/bin/zsh',
-   size = vim.o.columns * 0.2
-}
+    require("toggleterm").setup{
+        direction = 'vertical',
+        shell = '/bin/zsh',
+        size = vim.o.columns * 0.2
+    }
 EOF
 
 " Shortcuts

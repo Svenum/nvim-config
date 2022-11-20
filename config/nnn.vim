@@ -1,23 +1,23 @@
 " Options
 lua << EOF
-local builtin = require("nnn").builtin
-require("nnn").setup({
-    explorer = {
-	    width = 40
-	    },
-    mappings = {
-		    { "<C-s>", builtin.open_in_split },     -- open file(s) in split
-		    { "<C-v>", builtin.open_in_vsplit },    -- open file(s) in vertical split
-		    { "<C-p>", builtin.open_in_preview }   -- open file in preview split keeping nnn focused
-        },
-    auto_close = true,
-    auto_open = {
-             setup = "picker",
-             tabpage = "pcker",
-             empty = true
-        }
+    local builtin = require("nnn").builtin
+    require("nnn").setup({
+        explorer = {
+	            width = 40
+	        },
+        set_default_mappings = 0,
+        mappings = {
+		        { "<S-s>", builtin.open_in_split },
+		        { "<S-v>", builtin.open_in_vsplit },
+            },
+        auto_close = true,
+        auto_open = {
+                 setup = "picker",
+                 tabpage = "pcker",
+                 empty = true
+            }
         
-})
+    })
 EOF
 
 "autocmd VimEnter * NnnExplorer
