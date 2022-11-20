@@ -12,10 +12,10 @@ nnoremap <silent> <C-S-Right> :vert res +5 <CR>
 nnoremap <silent> <C-S-Left> :vert res -5 <CR>
 nnoremap <silent> <C-S-Up> :res +5 <CR>
 nnoremap <silent> <C-S-Down> :res -5 <CR>
-tnoremap <silent> <C-S-Right> <C-\><C-n> :vert res +5 <CR>
-tnoremap <silent> <C-S-Left> <C-\><C-n> :vert res -5 <CR>
-tnoremap <silent> <C-S-Up> <C-\><C-n> :res +5 <CR>
-tnoremap <silent> <C-S-Down> <C-\><C-n> :res -5 <CR>
+tnoremap <silent> <C-S-Right> <C-\><C-n> :vert res +5 <CR> i
+tnoremap <silent> <C-S-Left> <C-\><C-n> :vert res -5 <CR> i
+tnoremap <silent> <C-S-Up> <C-\><C-n> :res +5 <CR> i
+tnoremap <silent> <C-S-Down> <C-\><C-n> :res -5 <CR> i
 
 nnoremap <C-c> :quitall<CR>
 
