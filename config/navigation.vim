@@ -23,6 +23,9 @@ nnoremap <C-q> :q<CR>
 inoremap <C-q> <Esc>:q<CR>
 tnoremap <C-q> <C-\><C-n>:q<CR>
 
+nnoremap <A-w> :w<CR>
+inoremap <A-w> <Esc>:w<CR>
+
 nnoremap <silent> <A-Down> :split<CR>
 nnoremap <silent> <A-Right> :vsplit<CR>
 

@@ -14,8 +14,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " IDE
     Plug 'neoclide/coc.nvim', {'do': 'npm install --frozen-lockfile'} " this is for auto complete, prettier and tslinting
-    Plug 'rstacruz/vim-closer'
-    Plug 'rstacruz/vim-hyperstyle'
+    " Plug 'rstacruz/vim-closer'
+    " Plug 'rstacruz/vim-hyperstyle'
+    Plug 'windwp/nvim-autopairs'
     Plug 'frazrepo/vim-rainbow'
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
     Plug 'p00f/nvim-ts-rainbow'
