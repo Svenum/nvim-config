@@ -20,7 +20,8 @@ let g:coc_global_extensions = [	'coc-jedi',
 				\'coc-markdownlint', 
 				\'coc-sh', 
 				\'coc-html-css-support',
-				\'coc-html'
+				\'coc-html',
+                \'@yaegassy/coc-ansible'
 			     \]
 
 " Functions
