@@ -5,11 +5,11 @@ lua << EOF
         explorer = {
 	            width = 40
 	        },
-        set_default_mappings = 0,
+        replace_netrw = nil,
         mappings = {
-		        { "<S-s>", builtin.open_in_split },
-		        { "<S-v>", builtin.open_in_vsplit },
-            },
+	             { "<S-s>", builtin.open_in_split },
+	             { "<S-v>", builtin.open_in_vsplit },
+             },
         auto_close = true,
         auto_open = {
                  setup = "picker",
