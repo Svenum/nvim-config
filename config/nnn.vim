@@ -7,8 +7,8 @@ lua << EOF
 	        },
         replace_netrw = nil,
         mappings = {
-	             { "<S-s>", builtin.open_in_split },
-	             { "<S-v>", builtin.open_in_vsplit },
+	             { "<C-s>", builtin.open_in_split },
+	             { "<C-v>", builtin.open_in_vsplit },
              },
         auto_close = true,
         auto_open = {
