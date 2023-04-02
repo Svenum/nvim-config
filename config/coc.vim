@@ -21,8 +21,8 @@ let g:coc_global_extensions = [	'coc-jedi',
 				\'coc-sh', 
 				\'coc-html-css-support',
 				\'coc-html',
-                \'@yaegassy/coc-ansible'
-			     \]
+        \'@yaegassy/coc-ansible'
+	      \]
 
 " Functions
 function! CheckBackspace() abort
